@@ -106,10 +106,9 @@
             <div class="new-block__wrapper">
               <div class="new-scroll">
                 <div class="new-scroll__item">
-                  <a href="">
+                  <a class="new-scroll__img" href="">
                     <img
                       src="./img/c81fe83b359cba14d0b8970140f9ee4ab9532dae.png"
-                      class="new-scroll__img"
                     />
                   </a>
                   <p class="new-scroll__title">
@@ -137,8 +136,125 @@
             </div>
           </div>
         </section>
+        <section class="popular-books">
+          <div class="container">
+            <h2 class="title">Популярные книги</h2>
+          </div>
+          <div class="container">
+            <div class="popular-books__wrapper">
+              <div class="popular-scroll">
+                <div class="popular-scroll__item">
+                  <a class="popular-scroll__img" href="">
+                    <img
+                      src="./img/c81fe83b359cba14d0b8970140f9ee4ab9532dae.png"
+                      alt=""
+                    />
+                  </a>
+                  <p class="popular-scroll__cost">840 ₽</p>
+                  <div class="popular-scroll__txt">
+                    <p class="popular-scroll__title">Странные игры</p>
+                    <p class="popular-scroll__subtitle">Майк Омер</p>
+                  </div>
+                  <div class="popular-scroll__btns">
+                    <button type="button" class="popular-scroll__buy">
+                      Купить
+                    </button>
+                    <button type="button" class="popular-scroll__mark">
+                      <img src="./img/mark.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="promo-block">
+          <img src="./img/promo.jpg" alt="" class="promo-block__img" />
+          <div class="promo-block__txt">
+            <h2 class="promo-block__title">
+              Погрузитесь в мир знаний и вдохновения вместе с БукМарт
+            </h2>
+            <p class="promo-block__description">
+              У нас на сайте вы найдете широкий ассортимент литературы на любой
+              вкус — от классики до новинок, от художественной прозы до
+              научно-популярных изданий на <span>любой вкус</span>.<br />
+              Наша команда тщательно отбирает каждую книгу, чтобы предложить вам
+              только <span>лучшее</span>. Откройте для себя новые горизонты с
+              каждой прочитанной страницей!
+            </p>
+          </div>
+        </section>
+        <section class="about-us">
+          <div class="container">
+            <h2 class="title">Почему выбирают нас?</h2>
+          </div>
+          <div class="container">
+            <div class="about-us__wrapper">
+              <div class="about-us__item">
+                <img src="./img/car.png" alt="" class="about-us__img" />
+                <p class="about-us__title">Быстрая доставка</p>
+                <p class="about-us__subtitle">
+                  Доставим ваши любимые книги за 1-3 дня
+                </p>
+              </div>
+              <div class="about-us__item">
+                <img src="./img/car.png" alt="" class="about-us__img" />
+                <p class="about-us__title">Быстрая доставка</p>
+                <p class="about-us__subtitle">
+                  Доставим ваши любимые книги за 1-3 дня
+                </p>
+              </div>
+              <div class="about-us__item">
+                <img src="./img/car.png" alt="" class="about-us__img" />
+                <p class="about-us__title">Быстрая доставка</p>
+                <p class="about-us__subtitle">
+                  Доставим ваши любимые книги за 1-3 дня
+                </p>
+              </div>
+              <div class="about-us__item">
+                <img src="./img/car.png" alt="" class="about-us__img" />
+                <p class="about-us__title">Быстрая доставка</p>
+                <p class="about-us__subtitle">
+                  Доставим ваши любимые книги за 1-3 дня
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__logo">
+              <img src="./img/logo.png" alt="" />
+              <p>BookMart</p>
+            </div>
+            <div class="footer__links">
+              <a href="" class="footer__links-item">Каталог</a>
+              <a href="" class="footer__links-item">Мои заказы</a>
+              <a href="" class="footer__links-item">Помощь</a>
+            </div>
+            <div class="footer__links">
+              <p class="footer__links-item">Скачай приложение</p>
+              <img class="footer__links-qr" src="./img/qr.svg" alt="" />
+            </div>
+            <div class="footer__links">
+              <a href="tel:+79169999999" class="footer__links-item"
+                >+7 (916) 999 99 99</a
+              >
+              <a href="mailto:info@bookmart.com" class="footer__links-item"
+                >info@bookmart.com</a
+              >
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="footer__info-txt">
+              <p class="footer__copyright">©bookmart 2024</p>
+              <p class="footer__polytics">Политика конфиденциальности</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -148,5 +264,6 @@
     ></script>
     <script src="./JS/index.js"></script>
     <script src="./JS/sliderNew.js"></script>
+    <script src="./JS/sliderPopular.js"></script>
   </body>
 </html>

@@ -1,8 +1,8 @@
 $(document).ready(function () {
-  $(".new-scroll").slick({
+  $(".popular-scroll").slick({
     infinite: false,
     variableWidth: true,
-    slidesToShow: 6,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
 
@@ -13,9 +13,7 @@ $(document).ready(function () {
     nextArrow:
       '<button type="button" class="slick-next"><img src="./img/arrow-slider-sec.svg" alt="Вперед"></button>',
     responsive: [
-      { breakpoint: 1400, settings: { slidesToShow: 4 } },
-      { breakpoint: 768, settings: { slidesToShow: 2, arrows: false } },
-      { breakpoint: 450, settings: { slidesToShow: 1, arrows: false } },
+      { breakpoint: 768, settings: { slidesToShow: 1, arrows: false } },
     ],
   });
 });
