@@ -133,6 +133,7 @@ body {
   font-family: "Solomon Sans", sans-serif;
   font-weight: 400;
   background: linear-gradient(180deg, #ffffff 17.43%, #4884af 100%);
+  font-size: 16px;
   color: #1c2023;
   scroll-behavior: smooth;
 }
